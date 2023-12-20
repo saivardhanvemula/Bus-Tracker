@@ -4,17 +4,17 @@ const path = require('path');
 
 const app = express();
 const port = 3000; 
+
 app.use(express.static(path.join(__dirname, './')));
 
-const uri = 'mongodb+srv://saivardhanvemulamncl:sai7626@bustracker.z9ztvx3.mongodb.net/';
-const client = new MongoClient(uri );
-
-app.get('/api/buses', async (req, res) => {
+const uri='mongodb://localhost:27017/';
+const client = new MongoClient(uri); 
+app.get('/buses', async (req, res) => {
   try {
     await client.connect();
-    const database = client.db('BusInfo');
-    const collection = database.collection('BusTracker');
-7    const buses = await collection.find({}).toArray();
+    const database = client.db('BusTracker');
+    const collection = database.collection('BusData');
+    const buses = await collection.find({}).toArray();
 
     res.json(buses);
   } catch (error) {

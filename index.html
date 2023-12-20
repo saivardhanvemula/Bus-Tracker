@@ -11,7 +11,14 @@
         margin-bottom: 5px;
       }
       body {
-        background: linear-gradient(to right, #f0f0f0, #dddddd, #cccccc, #bbbbbb, #aaaaaa);
+        background: linear-gradient(
+          to right,
+          #f0f0f0,
+          #dddddd,
+          #cccccc,
+          #bbbbbb,
+          #aaaaaa
+        );
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -42,17 +49,7 @@
         transform: scale(1.05);
         transition: 50ms ease-out;
       }
-      .right:hover {
-        transform: scale(1.05);
-        transition: 50ms ease-out;
-      }
-      .right > img {
-        position: relative;
-        left: 0px;
-        top: 2px;
-        margin-right: 10px;
-        transform: scale(1.3);
-      }
+
       .left > img {
         filter: invert(1);
         position: relative;
@@ -159,10 +156,9 @@
       </div>
     </div>
     <script>
-      function redirectToPage(site){
-    window.location.href=site;
-}
-
+      function redirectToPage(site) {
+        window.location.href = site;
+      }
     </script>
   </body>
 </html>

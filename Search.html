@@ -159,7 +159,7 @@
     <div id="attract-container">
       <div id="attract-icon">🚍</div>
       <h4>
-        Did you find your Bus..? Discover various buses along with their details
+        Discover various buses along with their details
         here
       </h4>
     </div>
@@ -167,7 +167,7 @@
     <script>
       async function fetchBusesFromServer() {
         try {
-          const response = await fetch("/api/buses");
+          const response = await fetch("/buses");
           if (!response.ok) {
             throw new Error("Failed to fetch data");
           }
@@ -217,8 +217,8 @@
       }
 
       function showLiveLocation(location) {
-        window.location.href = location;
-      }
+        window.open(location, '_blank');
+            }
 
       function showDetails(busName, route, dropLocations, capacity) {
         alert(
@@ -236,7 +236,7 @@
           const busRoute = busBox
             .querySelector("p:nth-child(2)")
             .textContent.toLowerCase();
-          return busName.includes(searchTerm) || busRoute.includes(searchTerm);
+          return busName.includes(searchTerm) || busRoute.includes(searchTerm) ;
         });
 
         allBuses.forEach((busBox) => {
