@@ -1,64 +1,12 @@
 [{
   "_id": {
-    "$oid": "6569c65a9538be4dd559631a"
+    "$oid": "6569c65a9538be4dd5596320"
   },
-  "name": "Bus 1",
+  "name": "Bus 7",
   "route": [
-    "Location 2",
-    "Location 1",
-    "B.H.E.L"
-  ],
-  "capacity": 60,
-  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9 "
-},
-{
-  "_id": {
-    "$oid": "6569c65a9538be4dd559631b"
-  },
-  "name": "Bus 2",
-  "route": [
-    "Location 2",
-    "Location 3",
-    "Nagole"
-  ],
-  "capacity": 60,
-  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
-},
-{
-  "_id": {
-    "$oid": "6569c65a9538be4dd559631c"
-  },
-  "name": "Bus 3",
-  "route": [
-    "Location 4",
-    "Location 5",
-    "Uppal"
-  ],
-  "capacity": 60,
-  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
-},
-{
-  "_id": {
-    "$oid": "6569c65a9538be4dd559631d"
-  },
-  "name": "Bus 4",
-  "route": [
-    "Location 6",
-    "Location 7",
-    "K.P.H.B"
-  ],
-  "capacity": 60,
-  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
-},
-{
-  "_id": {
-    "$oid": "6569c65a9538be4dd559631e"
-  },
-  "name": "Bus 5",
-  "route": [
-    "Location 8",
-    "Location 9",
-    "S.R nagar"
+    "Location 12",
+    "Location 13",
+    "Gachiboli"
   ],
   "capacity": 60,
   "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
@@ -78,13 +26,65 @@
 },
 {
   "_id": {
-    "$oid": "6569c65a9538be4dd5596320"
+    "$oid": "6569c65a9538be4dd559631e"
   },
-  "name": "Bus 7",
+  "name": "Bus 5",
   "route": [
-    "Location 12",
-    "Location 13",
-    "Gachiboli"
+    "Location 8",
+    "Location 9",
+    "S.R nagar"
+  ],
+  "capacity": 60,
+  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
+},
+{
+  "_id": {
+    "$oid": "6569c65a9538be4dd5596322"
+  },
+  "name": "Bus 9",
+  "route": [
+    "Location 16",
+    "Location 17",
+    "B.H.E.L"
+  ],
+  "capacity": 60,
+  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
+},
+{
+  "_id": {
+    "$oid": "6569c65a9538be4dd559631c"
+  },
+  "name": "Bus 3",
+  "route": [
+    "Location 4",
+    "Location 5",
+    "Uppal"
+  ],
+  "capacity": 60,
+  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
+},
+{
+  "_id": {
+    "$oid": "6569c65a9538be4dd559631b"
+  },
+  "name": "Bus 2",
+  "route": [
+    "Location 2",
+    "Location 3",
+    "Nagole"
+  ],
+  "capacity": 60,
+  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
+},
+{
+  "_id": {
+    "$oid": "6569c65a9538be4dd559631d"
+  },
+  "name": "Bus 4",
+  "route": [
+    "Location 6",
+    "Location 7",
+    "K.P.H.B"
   ],
   "capacity": 60,
   "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
@@ -104,14 +104,14 @@
 },
 {
   "_id": {
-    "$oid": "6569c65a9538be4dd5596322"
+    "$oid": "6569c65a9538be4dd559631a"
   },
-  "name": "Bus 9",
+  "name": "Bus 1",
   "route": [
-    "Location 16",
-    "Location 17",
+    "Location 2",
+    "Location 1",
     "Kokapet"
   ],
   "capacity": 60,
-  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9"
+  "liveLocation": "https://maps.app.goo.gl/dsPe2tupSg7xUVMN9 "
 }]

@@ -7,16 +7,16 @@ const port = 3000;
 
 app.use(express.static(path.join(__dirname, './')));
 
-// const uri='mongodb://localhost:27017/';
-const uri ='mongodb+srv://saivardhanvemulamncl:sai7626@bustracker.z9ztvx3.mongodb.net/';
+const uri='mongodb://localhost:27017/';
+// const uri ='mongodb+srv://saivardhanvemulamncl:sai7626@bustracker.z9ztvx3.mongodb.net/';
 // const uri =''
 // const uri ='mongodb+srv://saivardhanvemulamncl:<password>@bustracker.z9ztvx3.mongodb.net/?retryWrites=true&w=majority';
 const client = new MongoClient(uri); 
 app.get('/api/buses', async (req, res) => {
   try {
     await client.connect();
-    const database = client.db('BusInfo');
-    const collection = database.collection('BusTracker');
+    const database = client.db('BusTracker');
+    const collection = database.collection('BusData');
     const buses = await collection.find({}).toArray();
     res.json(buses);
   } catch (error) {
