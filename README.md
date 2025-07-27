@@ -23,3 +23,19 @@ Bus Tracker is a web-based application designed to help students and commuters t
    ```bash
    git clone https://github.com/saivardhanvemula/Bus-Tracker.git
    cd Bus-Tracker
+
+
+
+   -{
+  "_id": {
+    "$oid": "6569c65a9538be4dd5596320"
+  },
+  "name": "Bus 7",
+  "route": [
+    "Location 12",
+    "Location 13",
+    "location 14"
+  ],
+  "capacity": 60,
+  "liveLocation": "google live share link"
+}
